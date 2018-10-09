@@ -1,0 +1,147 @@
+[Network File] : simplenet.dat
+[Demand File] : odpairs.dat
+[Link Travel Time File] : traveltime.dat
+
+[Enroutepath Policy File] : policies.dat-enroute
+[Event File] : event.dat
+[Policy Policy File] : policy.dat
+[Policy Policy File 1] : policytime.dat
+[Enroutepath Policy Flow File] : policyflow.dat-enroute
+[Policy Policy Flow File] : policyflow.dat
+[Special Policy Flow File (Enroutepath)] : specialpolicyflow.dat-enroute
+[Special Policy Flow File (Policy)] : specialpolicyflow.dat
+
+[Path File] : D:\PolicyChoiceCDPI_linkbased_starttime_disableUTurnNode_LabelCorrecting_PoS\paths.dat
+[Working Path Flow File] : pathflow.dat //hardcoded in DynaMIT. Change with caution!!
+[Base Path Flow File] : pathflow.dat-base
+[Path Path Flow File] : pathflow.dat-path
+[Path Flow Norm File] : pathflownorm.dat
+
+[Incident Sample File] : incsample.dat
+[DynaMIT Incident File] : incident.dat
+[OD Sample File] : odsample.dat
+[Trajectory File] : trajectory.dat //hardcoded in DynaMIT. Change with caution!!!
+[Temp Link Time File] : tmplinktime.dat 
+
+[Gap File] : gap.dat
+[MOE File] : moe.dat
+
+[OD Time File (by vehicle)] : vehicletime.dat
+
+[Travel Time Distribution File] : ttdist.dat
+[Travel Time Distribution File (Base)] : ttdist.dat-base
+[Travel Time Distribution File (Path)] : ttdist.dat-path
+[Travel Time Distribution File (Enroutepath)] : ttdist.dat-enroute
+[Travel Time Distribution File (Policy)] : ttdist.dat-policy
+
+[Path Share File] : pathshare.dat
+
+[Base MOE File] : moe.dat-base
+[Path MOE File] : moe.dat-path
+[En Route Path MOE File] : moe.dat-enroute
+[Policy MOE File] : moe.dat-policy
+
+
+[Num Of Time Periods] : 16
+[Assignment Start Time] : 26703
+[Assignment End Time] : 41040
+[Step Size] : 10
+[Look Back Length] : 90
+[Num Links] : 8
+[Sample Size] : 37
+[OD Sample Size] : 1
+[Choice Set Size] : 120
+[Model (Deterministic=0, RUM=1)] : 1
+[RUM for Deterministic (No=0, Yes=1)] : 0
+[RUM Alpha] : -6.0
+[RUM Beta] : 0.0
+
+[Base Penetration Ratio] : 0.0
+[Path Penetration Ratio] : 0.0
+[Enroutepath Penetration Ratio] : 0.0
+[Policy Penetration Ratio] : 1.0
+
+[OD Start Time (second)] : 30270
+[OD End Time (second)] : 52170
+[OD Interval (second)] : 43200
+[Number of OD Pairs] : 1
+
+//OD Pair 1
+[Mean Scale] : 1.0
+[Pho for AR(1)] : 0.9
+[Standard Error for AR(1)] : 0.0
+
+//OD Pair 2
+[Mean Scale] : 1.0
+[Pho for AR(1)] : 0.9
+[Standard Error for AR(1)] : 0.3
+
+//OD Pair 3
+[Mean Scale] : 1.0
+[Pho for AR(1)] : 0.9
+[Standard Error for AR(1)] : 0.0
+
+
+
+[Number of Incidents] : 8
+[Incident Rate (/day/mile)] : 0.02
+
+//incident #1
+[Incident Segment Index] : 0
+[Incident Scale] : 0.535686955
+[Incident StartTime Range] : 23400 28800
+[Incident Duration Range] : 300 600
+[Incident Severity Range] : 0.5 0.3
+
+//incident #2
+[Incident Segment Index] : 1
+[Incident Scale] : 0.535686955
+[Incident StartTime Range] : 23400 28800
+[Incident Duration Range] : 300 600
+[Incident Severity Range] : 0.5 0.3
+
+//incident #3
+[Incident Segment Index] : 2
+[Incident Scale] : 0.757575758
+[Incident StartTime Range] : 23400 28800
+[Incident Duration Range] : 300 600
+[Incident Severity Range] : 0.5 0.3
+
+//incident #4
+[Incident Segment Index] : 3
+[Incident Scale] : 0.846995446
+[Incident StartTime Range] : 23400 28800
+[Incident Duration Range] : 300 600
+[Incident Severity Range] : 0.5 0.3
+
+//incident #5
+[Incident Segment Index] : 4
+[Incident Scale] : 0.757575758
+[Incident StartTime Range] : 23400 28800
+[Incident Duration Range] : 300 600
+[Incident Severity Range] : 0.5 0.3
+
+//incident #6
+[Incident Segment Index] : 5
+[Incident Scale] : 0.846995446
+[Incident StartTime Range] : 23400 28800
+[Incident Duration Range] : 300 600
+[Incident Severity Range] : 0.5 0.3
+
+//incident #7
+[Incident Segment Index] : 6
+[Incident Scale] : 0.378787879
+[Incident StartTime Range] : 23400 28800
+[Incident Duration Range] : 300 600
+[Incident Severity Range] : 0.5 0.3
+
+//incident #8
+[Incident Segment Index] : 7
+[Incident Scale] : 0.378787879
+[Incident StartTime Range] : 23400 28800
+[Incident Duration Range] : 300 600
+[Incident Severity Range] : 0.5 0.3
+
+
+
+
