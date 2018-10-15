@@ -1,5 +1,5 @@
 # EventCollection
-generate event collection in C++
+Generate event collection in C++. 
 
 
 We study optimal routing policy problems in stochastic time-dependent (STD) networks, where link travel times are modeled as random variables with time-dependent distributions. A routing policy is defined as a decision rule that specifies what node to take next at each
